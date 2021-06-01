@@ -9,7 +9,7 @@ public class App
         String str;
         System.out.println("What is the input string?");
         str = getString();
-        System.out.println(charNum(str));
+        System.out.print(str+ " contains " +charNum(str) +" characters.");
     }
 
     public static String getString()
